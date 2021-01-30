@@ -1,0 +1,1544 @@
+@font-face {
+    font-family: "IRANYekanWebFn-Light";
+    src: url("../fonts/iranyekanweblightfanum.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/iranyekanweblightfanum.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/iranyekanweblightfanum.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/iranyekanweblightfanum.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/iranyekanweblightfanum.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/iranyekanweblightfanum.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/iranyekanweblightfanum.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lalezar-Regular";
+    src: url("../fonts/Lalezar-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Lalezar-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Lalezar-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Lalezar-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Lalezar-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Lalezar-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Lalezar-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#section-1 {
+    padding: 70px 0px 70px 0px;
+    background: #e2edf9;
+    border-bottom: solid #e9ebed 1px;
+    color: #3d5286 !important;
+}
+
+.section-1-texts-h3 {
+    margin-bottom: 40px;
+}
+
+.section-1-texts-h1 {
+    margin-bottom: 70px;
+}
+
+#section-2 {
+    padding: 40px 20px 40px 20px;
+    background: #ffffff;
+    border-bottom: solid #e9ebed 1px;
+}
+
+#section-3 {
+    padding: 40px 20px 40px 20px;
+    background: #ffffff;
+    border-bottom: solid #e9ebed 1px;
+}
+
+#section-4 {
+    padding: 20px 0px 20px 0px;
+    background: #e2edf9;
+    border-bottom: solid #e9ebed 1px;
+    color: #3d5286 !important;
+}
+
+#image-slyder {
+    max-width: 500px !important;
+    height: 400px !important;
+    z-index: 1;
+    float: left;
+}
+
+.search-style {
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+
+.title-a {
+    background: #f89c1c;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    line-height: 25px;
+    transition: all .5s ease;
+}
+
+.title-a:hover {
+    color: #fff !important;
+    background: #f15d1c;
+    transition: all .5s ease;
+}
+
+.slyder-2 {
+    height: 400px;
+}
+
+.slyder-2 img {
+    height: 200px !important;
+    width: 100% !important;
+}
+
+.btn-slyder-2 {
+    border-radius: 10px !important;
+    background: #f89c1c;
+    color: #fff !important;
+    margin-top: 15px;
+    transition: all 0.8s ease !important;
+}
+
+.btn-slyder-2:hover {
+    border-radius: 60px !important;
+    transition: all 0.8s ease !important;
+    color: #fff !important;
+}
+
+.thumbnail {
+    padding: 0px !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px;
+}
+
+form input {
+    padding: 13.5px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    float: right;
+    width: 80%;
+    background: #ffffff;
+    font-family: "IRANYekanWebFn-Light" !important;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form button {
+    float: right;
+    width: 20%;
+    padding: 13.5px;
+    background: #f89c1c;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    border-right: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form button:hover {
+    background: #f89c1c;
+}
+
+form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#section-2-3 {
+    margin-top: 10px;
+}
+
+.teacher {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    top: 0;
+    padding-left: 0px !important;
+}
+
+.information-course-box {
+    margin-top: 15px;
+    height: 35px;
+}
+
+.section-4-img {
+    border-radius: 50%;
+}
+
+.caption-tittle {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.caption a {
+    color: #000;
+}
+
+.caption a:link {
+    text-decoration: none;
+}
+
+.caption a:hover {
+    color: #f89c1c;
+}
+
+a:hover {
+    color: #f89c1c;
+}
+
+.price-box {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.image-slyder {
+    width: 100%;
+    border-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+#control-left {
+    font-size: 50px;
+    margin-top: 150px;
+    color: #000;
+}
+
+#control-right {
+    font-size: 50px;
+    margin-top: 150px;
+    color: #000;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+}
+
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.section-blog-1 {
+    padding: 40px 0px 40px 0px;
+}
+
+.section-about-1 {
+    padding: 40px 0px 40px 0px;
+}
+
+.ad-blog-p {
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.section-address-p a {
+    color: #000;
+}
+
+.section-blog .posts-blog {
+    margin-bottom: 25px;
+}
+
+.section-about-1-1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.img-about-profile {
+    border-radius: 50%;
+    width: 70%;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.img-about-profile-h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-profile {
+    margin-bottom: 20px;
+}
+
+.img-contact-1 {
+    width: 85%;
+}
+
+.footer-contact-p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.contact-btn {
+    font-family: "IRANYekanWebFn-Light" !important;
+    background: #f89c1c;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+}
+
+.messages-contact {
+    padding-right: 0px !important;
+}
+
+.img-404 {
+    width: 70%;
+}
+
+.a-404 {
+    background: #f89c1c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.a-404:hover {
+    color: #fff;
+    background: #f15d1c;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.pragraph-404 {
+    text-align: center;
+    padding: 40px 0px 60px 0px;
+}
+
+.section-address-p a {
+    color: #000;
+}
+
+a:hover {
+    color: #f89c1c;
+}
+
+#header-2 {
+    background: white;
+    border-bottom: solid #e9ebed 1px;
+    padding: 20px 0px 20px 0px;
+}
+
+#header-3 {
+    background: white;
+    padding: 10px 0px 25px 0px;
+}
+
+#header-3 a {
+    color: #464749;
+}
+
+#header-3 .dropdown-menu {
+    font-size: 15px;
+}
+
+a {
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer-top {
+    padding: 20px 0px 20px 0px;
+    background: #3c8aca;
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #4865a5;
+    padding: 20px 0px 20px 0px;
+    color: #fff;
+}
+
+.footer-fixed a:hover {
+    color: #fff !important;
+}
+
+.footer-bottom a {
+    color: #fff;
+}
+
+.footer-p {
+    margin-bottom: 10px;
+}
+
+.footer-p a {
+    color: #fff;
+}
+
+.thumbnail {
+    padding: 0px !important;
+    border-radius: 4px !important;
+    margin-bottom: 15px;
+}
+
+.courses-teacher {
+    margin: 30px 20px 30px 20px;
+}
+
+.courses-information {
+    margin: 30px 0px 30px 0px;
+}
+
+.section-courses {
+    padding: 40px 0px 40px 0px;
+}
+
+.courses-img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+.li-information {
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.li-information-videos {
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+.social-networks-courses a {
+    color: #f89c1c;
+}
+
+.social-networks-courses i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.social-networks-courses {
+    text-align: center;
+}
+
+.courses-class-information {
+    margin: 20px 0 0 0;
+}
+
+.courses-class-information-p {
+    margin: 0 20px 0 20px;
+}
+
+.courses-tabs-li a {
+    color: #555555;
+}
+
+.courses-tabs-li {
+    margin-bottom: 15px !important;
+}
+
+.courses-tabs-li>li.active>span {
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.courses-tabs-li>li>span {
+    margin-left: 2px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+.courses-tabs-li>li>span {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.videos-courses-li {
+    padding: 20px 0 20px 0 !important;
+}
+
+.comment-courses-li {
+    padding: 20px 0 20px 0 !important;
+}
+
+.comment-metadata a time {
+    color: #CCC !important;
+    line-height: 40px !important;
+    font-size: 16px !important;
+}
+
+.comment-author {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    color: #28ade4 !important;
+    display: inline-block !important;
+}
+
+.comment-body {
+    margin: 10px 50px 0 0;
+    border: 1px solid #e4e1e3;
+    border-radius: 4px;
+    padding: 20px 20px 20px;
+}
+
+.comment-content {
+    line-height: 30px;
+}
+
+.contact-btn {
+    font-family: "IRANYekanWebFn-Light" !important;
+    background: #f89c1c;
+    color: #fff;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.author-courses-li {
+    padding: 20px 0 20px 0 !important;
+}
+
+.media-body h4 {
+    margin: 8px 20px 10px 0px;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Lalezar-Regular" !important;
+}
+
+.media-body p {
+    margin-right: 20px;
+    line-height: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer-themes {
+    font-family: "IRANYekanWebFn-Light";
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-p {
+    margin-bottom: 10px;
+}
+
+#header-1 {
+    background: #3c8aca;
+    height: 15px;
+}
+
+#header-1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#header-2 {
+    background: white;
+    border-bottom: solid #e9ebed 1px;
+    padding: 20px 0px 20px 0px;
+}
+
+#header-3 {
+    background: white;
+}
+
+#header-3 a {
+    color: #464749;
+}
+
+.panel-resposive-1 {
+    display: none;
+}
+
+.header-resposive-10 {
+    margin-left: 15px;
+}
+
+.navbar {
+    border: none !important;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.menuarea ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block
+}
+
+.menuarea ul>li {
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 15px;
+    /* float: right; */
+    position: relative
+}
+
+.menuarea ul>li>a {
+    color: #212121 !important;
+    padding: 15px 13px;
+    border-radius: 10px
+}
+
+.menuarea ul>li:hover>a {
+    background: rgba(0, 0, 0, .04)
+}
+
+.menuarea ul>li>ul {
+    display: none
+}
+
+.menuarea ul>li:hover>ul {
+    position: absolute;
+    display: block;
+    min-width: 190px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+    top: 42px;
+    margin: 0
+}
+
+.menuarea ul>li>ul>li {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.menuarea ul>li>ul>li>a {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 13px 15px;
+    border-radius: 10px;
+    transition: all .5s
+}
+
+.acta,
+.bctagosmart {
+    transition: all .3s;
+    border-radius: 7px
+}
+
+.menuarea ul>li>ul>li:hover>a {
+    background: #f15d1c;
+    color: #fff !important;
+    padding-right: 25px;
+    transform: scale(1.2)
+}
+
+.menuarea ul>li.current-menu-parent>a,
+.menuarea>ul>li.current-menu-item>a {
+    background-color: rgba(0, 0, 0, .04)
+}
+
+.menuarea ul>li>ul>li>ul {
+    position: absolute;
+    top: 0!important;
+    right: 190px
+}
+
+.menuarea ul>li>a {
+    color: #212121;
+    padding: 15px 13px;
+    border-radius: 10px;
+}
+
+.menuarea ul>li.menu-item-has-children>a,
+.menuarea ul>li.menu-item-has-children>a:hover {
+    transform: none !important;
+}
+
+.thumbnail.courses.blog {
+    padding: 0px !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, .07) 0 0 30px;
+    border: 0px;
+    transition: all 0.3s ease;
+}
+
+.thumbnail.courses.blog:hover {
+    box-shadow: 0 10px 20px rgba(168, 172, 185, .3);
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    transition: all 0.3s ease;
+}
+
+.course-box img {
+    height: 300px !important;
+}
+
+.vlog-box img {
+    height: 250px !important;
+    width: 100%;
+    border-radius: 10px !important;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.social-networks a:hover {
+    color: #3c8aca !important;
+}
+
+.footer-p-circle {
+    font-size: 10px;
+    color: #f89c1c;
+    margin-left: 5px;
+}
+
+.thumbnail.courses.blog img {
+    width: 100%;
+    border-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.price-background {
+    text-align: center;
+    background: #f89c1c;
+    color: #fff;
+    padding: 5px 5px 2px 5px !important;
+    min-width: 70px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.users {
+    text-align: left;
+}
+
+.teacher {
+    text-align: right;
+}
+
+.panel-login-box {
+    background: #f89c1c !important;
+    color: #fff !important;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.shopping-cart-box {
+    background: #f89c1c !important;
+    color: #fff !important;
+    border-radius: 10px;
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+.panel-login-box:hover {
+    color: #fff !important;
+    background: #f15d1c !important;
+    transition: all .5s ease;
+}
+
+.shopping-cart-box:hover {
+    color: #fff !important;
+    background: #f15d1c !important;
+    transition: all .5s ease;
+}
+
+.li-no-home {
+    margin-bottom: 15px;
+}
+
+.section-4-box {
+    text-align: center;
+    line-height: 30px;
+}
+
+.section-1-texts {
+    margin-top: 50px;
+}
+
+.attachment-full.size-full.wp-post-image {
+    max-width: 95%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.posts-title-1 {
+    margin: 50px 0 0 0;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Lalezar-Regular" !important;
+}
+
+.posts-p-1 {
+    text-align: justify;
+    line-height: 30px;
+    margin: 25px 30px 30px 30px;
+}
+
+.courses-class-information-p {
+    margin: 0 20px 0 20px;
+}
+
+.breadcrumbs {
+    color: #767676 !important;
+}
+
+.breadcrumbs a {
+    color: #767676 !important;
+}
+
+.nothing-in-page {
+    padding: 50px 0 50px 0;
+}
+
+.lefts_shares span {
+    float: right;
+}
+
+.share-content-blog .lefts_shares {
+    float: right !important;
+}
+
+.lefts_shares {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+}
+
+.share-content-blog {
+    border-top: 1px solid #dcdcdc;
+    padding: 20px 15px 0 0;
+}
+
+.lefts_shares ul {
+    width: 140px;
+    float: left;
+    display: block;
+    margin-left: 0;
+}
+
+.lefts_shares ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 3px;
+    width: 24px;
+    height: 24px;
+}
+
+.linkedin_shares {
+    color: #f89c1c !important;
+    font-size: 22px;
+}
+
+.twitter_shares {
+    color: #f89c1c !important;
+    font-size: 22px;
+}
+
+.telegram_shares {
+    color: #f89c1c !important;
+    font-size: 22px;
+}
+
+.clear_iranthemes {
+    clear: both;
+    padding: 10px 0;
+}
+
+.avatar.avatar-100.photo {
+    border-radius: 50%;
+}
+
+.author-courses-li {
+    padding: 20px 10px 20px 10px !important;
+}
+
+.elementor-video {
+    border-radius: 5px;
+}
+
+.commentsarea form input[type="text"],
+.commentsarea form input[type="email"] {
+    width: 100%;
+    outline: 0;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-image: initial;
+    padding: 7px;
+    min-height: 48px;
+}
+
+.commentsarea form input[type="text"],
+.commentsarea form input[type="email"] {
+    width: 100%;
+    outline: 0;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-image: initial;
+    padding: 7px;
+    min-height: 48px;
+}
+
+.commentsarea form .comment-form-email {
+    width: 50%;
+    padding-right: 10px;
+    float: right;
+}
+
+.comment-form-author label,
+.comment-form-email label {
+    width: 100%;
+    display: block;
+}
+
+.comment-form-author,
+.comment-form-email {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+.commentsarea form textarea {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-image: initial;
+    outline: 0;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.commentsarea>h3.comment-reply-title {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#comments,
+#comments .do-have-any-comments,
+.commentsarea,
+.commentsarea form,
+.commentsarea form .comment-notes,
+.commentsarea form .form-submit,
+.commentsarea form input,
+.commentsarea form label {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.commentsarea form .form-submit input[type="submit"] {
+    border: none;
+    display: inline-block;
+    background-color: #f89c1c;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 7px;
+    outline: 0;
+    transition: all .3s ease 0s;
+    padding: 15px 20px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.comment-courses-li {
+    padding: 0px 30px 15px 30px !important;
+}
+
+.woocommerce #review_form #respond .form-submit input {
+    border: none;
+    display: inline-block;
+    background-color: #93cb74;
+    text-align: center;
+    font-weight: 400;
+    box-shadow: rgba(147, 203, 116, .6) 0 2px 12px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 7px;
+    outline: 0;
+    transition: all .3s ease 0s;
+    padding: 20px 50px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.comment-form-cookies-consent {
+    display: none;
+}
+
+#comments ol.commentlist li img.avatar {
+    width: 45px !important;
+    background: 0 0 !important;
+    border-radius: 55%;
+    top: 25px !important;
+    right: 15px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.woocommerce-review__author {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    color: #28ade4 !important;
+    display: inline-block !important;
+}
+
+time.woocommerce-review__published-date {
+    color: #CCC !important;
+    line-height: 40px !important;
+    font-size: 16px !important;
+}
+
+.comment-text {
+    border: none !important;
+}
+
+.woocommerce-review__dash {
+    display: block !important;
+    width: 100% !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    font-size: 0 !important;
+}
+
+#comments ol.commentlist {
+    list-style-type: none;
+}
+
+li.review {
+    border: 1px solid #EEE !important;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+    padding: 15px 15px 10px !important;
+}
+
+#comments ol.commentlist {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#comments,
+#comments .do-have-any-comments,
+.commentsarea,
+.commentsarea form,
+.commentsarea form .comment-notes,
+.commentsarea form .form-submit,
+.commentsarea form input,
+.commentsarea form label {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.slyder-2-h4 {
+    font-size: 18px;
+    font-family: "Lalezar-Regular" !important;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.slyder-2-p {
+    margin-top: 15px;
+}
+
+.thumbnail .caption {
+    padding: 9px 15px !important;
+}
+
+.caption p {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.comment-reply-link {
+    background: #3c8aca;
+    color: #fff !important;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.comment-list .comment-content {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.comment-list .comment:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.comment-list .comment-body {
+    line-height: 1.8;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.commentlist li {
+    list-style-type: none;
+}
+
+.comment-author b a {
+    margin-right: 5px;
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(#a0b3b0, .25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.tab-group li a:hover {
+    background: #3c8aca;
+    color: white;
+}
+
+.tab-group .active a {
+    background: #3c8aca;
+    color: white;
+}
+
+.woocommerce-LostPassword.lost_password a {
+    color: #000;
+}
+
+.woocommerce-LostPassword.lost_password {
+    margin-top: 20px;
+}
+
+.woocommerce-form__input-checkbox {
+    width: unset !important;
+    display: unset !important;
+}
+
+.woocommerce input,
+span.select2-selection.select2-selection--single {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border: 1px solid #d3ced2;
+    border-radius: 7px;
+    color: #000;
+    background: #fff;
+    transition: color 1.5s, background 1.5s;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    background: #f89c1c !important;
+    color: #fff !important;
+    border-radius: 15px;
+    text-align: center;
+    padding: 13px;
+    width: 100%;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 36px;
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    margin-bottom: 35px;
+    color: #555;
+    line-height: 60px;
+}
+
+
+/* panel */
+
+.imgprofilewoohm img {
+    width: auto;
+    max-height: 120px;
+    max-width: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 100% !important;
+}
+
+.imgprofilewoohm {
+    display: block;
+    width: 100%;
+    min-height: 210px;
+    position: relative;
+    z-index: 1;
+}
+
+.woocommerce-MyAccount-navigation li.is-active a:hover {
+    background: #f89c1c;
+}
+
+.shwebhm-panel-nav {
+    border-radius: 10px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    position: relative;
+}
+
+nav.woocommerce-MyAccount-navigation .shwebhm-panel-nav {
+    background: #fff;
+}
+
+.uresndisplaynamehm {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.woocommerce-MyAccount-navigation::before {
+    background: #f89c1c;
+}
+
+.woocommerce-MyAccount-navigation::before {
+    content: "";
+    border-radius: 10px 10px 50% 50%;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #f89c1c;
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+}
+
+.go-out-wwsh {
+    background: #f89c1c !important;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boxmyaccounts {
+    background: #fff;
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    transition: all .5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.speedlearn-theme-my-account-box .number-of-orders-hm,
+.speedlearn-theme-my-account-box .number-of-orders-hm * {
+    background: #2979ff;
+    color: #fff;
+}
+
+.numberboxmy {
+    font-size: 55px;
+}
+
+.titleboxmy {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    font-size: 35px;
+    line-height: 60px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+
+.number-of-days-hm,
+.speedlearn-theme-my-account-box .number-of-days-hm * {
+    background: #00e676;
+    color: #fff;
+}
+
+.speedlearn-theme-my-account-box .number-of-days-hm .titleboxmy {
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 3px;
+    margin-top: -18px;
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link a {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #fff;
+    transition: all .5s;
+    border-radius: 7px;
+    color: #333;
+    display: block;
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link a:hover {
+    background: #f5f5f5
+}
+
+.woocommerce-MyAccount-navigation li.is-active a {
+    background: #f89c1c;
+    color: #fff
+}
+
+.woocommerce-MyAccount-navigation li.is-active a:hover {
+    background: #f89c1c
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.woocommerce-MyAccount-content p {
+    line-height: 30px;
+}
+
+.speedlearn-theme-my-account-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 17px 10px 17px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.08);
+}
+
+.woocommerce-MyAccount-navigation {
+    border-radius: 10px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    position: relative;
+}
+
+.hide-in-not-mobile {
+    display: none;
+}
+
+@media only screen and (max-width:620px) {
+    .panel-resposive-2 {
+        display: none !important;
+    }
+    .panel-resposive-1 {
+        display: initial !important;
+    }
+    .posts-p-1 {
+        margin: 25px 0px 30px 0px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .footer-themes {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .panel-resposive-2 {
+        display: none !important;
+    }
+    .panel-resposive-1 {
+        display: initial!important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #panel-login {
+        text-align: center;
+    }
+    #shopping-cart {
+        text-align: center;
+    }
+    .courses-baner-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    #panel-login {
+        text-align: center;
+    }
+    #shopping-cart {
+        text-align: center;
+    }
+    .courses-baner-img {
+        width: 100%;
+    }
+    .media-left {
+        display: block !important;
+    }
+    .media-body {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    #panel-login {
+        text-align: center;
+    }
+    #shopping-cart {
+        text-align: center;
+    }
+    .courses-baner-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    #image-slyder {
+        display: none;
+    }
+    #section-bio {
+        display: none;
+    }
+    .section-about-2 {
+        padding: 0 15px 0 15px;
+    }
+    .img-about-profile-h4 {
+        margin-bottom: 45px;
+    }
+    .form-contact-2 {
+        padding: 0 30px 0 15px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .copy-right {
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #image-slyder {
+        display: none;
+    }
+    #section-bio {
+        display: none;
+    }
+    .slyder-2 {
+        margin-bottom: 40px;
+    }
+    #section-1 {
+        padding: 20px 0px 60px 0px;
+    }
+    .posts-title-1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .title-a {
+        display: none;
+    }
+    .title h3 {
+        text-align: center;
+    }
+    .media-left,
+    .media>.pull-left {
+        padding-right: 0 !important;
+        text-align: center !important;
+        margin-bottom: 12px;
+    }
+    .media-body h4 {
+        margin: 10px 0 10px 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .posts-title-1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .section-1-texts-h3 {
+        font-size: 21px;
+    }
+    .section-1-texts-h1 {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 447px) {
+    .section-1-texts-h3 {
+        font-size: 17px;
+    }
+    .section-1-texts-h1 {
+        font-size: 23px;
+    }
+}
