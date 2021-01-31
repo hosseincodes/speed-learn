@@ -47,7 +47,7 @@ if ( is_plugin_active( 'wordpress-seo/wp-seo.php' ) ) {
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <a class="navbar-brand" href="http://speed-learn.ir"><img
-                            src="<?php echo get_template_directory_uri(); ?>/images/speedlearn-logo.png" type="image"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/speedlearn-logo.png" type="image"
                             media="all" style="max-width: 160px !important;" alt="Image"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->

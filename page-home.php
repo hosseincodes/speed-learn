@@ -17,7 +17,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-md-6 section-1-image">
-                <img id="image-slyder" src="<?php echo get_template_directory_uri(); ?>/images/learing.png" type="image"
+                <img id="image-slyder" src="<?php echo get_template_directory_uri(); ?>/assets/images/learing.png" type="image"
                     media="all" alt="Image">
             </div>
         </div>
