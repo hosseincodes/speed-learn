@@ -405,10 +405,98 @@ a:link {
     color: #fff;
 }
 
+.all-areas-title:after,
+.article-content>article>ul li:before,
+.course-advice-box .piccontent::before,
+.postshomebox>div.first-post a .blog-posts-inner .categorytxt ul li:before,
+.req ul li:before,
+.req-title:before,
+.req:before {
+    content: ""
+}
+
+.all-areas-title {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 15px 0 30px 0;
+    display: inline-block;
+}
+
+.more-courses .all-areas-title:after {
+    width: 55px;
+    float: left;
+    margin-top: 11px;
+    height: 5px;
+    background-color: #F8C44F;
+    margin-right: 10px;
+}
+
+.all-areas-title-2:after {
+    width: 55px;
+    float: left;
+    margin-top: 11px;
+    height: 5px;
+    background-color: #F8C44F;
+    margin-right: 10px;
+}
+
+.comment-courses-li .all-areas-title:after {
+    width: 55px;
+    float: left;
+    margin-top: 11px;
+    height: 5px;
+    background-color: #F8C44F;
+    margin-right: 10px;
+}
+
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.teacher-author-avatar {
+    text-align: center;
+}
+
+.teacher-name h4 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.teacher-info p {
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 27px;
+}
+
+.product-icons {
+    color: #F8C44F;
+}
+
+.more-courses {
+    padding: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+}
+
 .thumbnail {
     padding: 0px !important;
     border-radius: 4px !important;
     margin-bottom: 15px;
+}
+
+.course-content {
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
 }
 
 .courses-teacher {
