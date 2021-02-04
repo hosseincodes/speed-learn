@@ -55,8 +55,8 @@ $product = wc_get_product(get_the_id());
 
             </div>
             <div class="col-lg-3 col-md-3 col-sm-0 col-xs-0">
-                <aside class="sidebar d-none d-lg-block sidebar-wwsh">
-                    <div class="sidebar-wwsh-box">
+                <aside class="sidebar d-none d-lg-block sidebar-products">
+                    <div class="sidebar-products-box">
                         <?php
 			/**
 			 * woocommerce_sidebar hook.
@@ -67,13 +67,13 @@ $product = wc_get_product(get_the_id());
 		?>
                     </div>
                 </aside>
-                <aside class="sidebar d-none d-lg-block sidebar-wwsh-1">
-                    <div class="sidebar-wwsh-box-1">
+                <aside class="sidebar d-none d-lg-block sidebar-products-tags">
+                    <div class="sidebar-products-box-1">
                         <span class="sidbar-span"><i class="fas fa-tags tags-sidebar"></i> برچسب ها</span>
                         <p class="ad-slider"><?php woocommerce_product_loop_tags(); ?></p>
                 </aside>
-                <aside class="sidebar d-none d-lg-block sidebar-wwsh-share">
-                    <div class="sidebar-wwsh-box-share">
+                <aside class="sidebar d-none d-lg-block sidebar-products-share">
+                    <div class="sidebar-products-box-share">
                         <div class="lefts_shares">
                             <span>اشتراک گذاری</span>
                             <ul>
@@ -92,8 +92,8 @@ $product = wc_get_product(get_the_id());
                         <div class="clear_iranthemes"></div>
                     </div>
                 </aside>
-                <aside class="sidebar d-none d-lg-block sidebar-wwsh-1">
-                    <div class="sidebar-wwsh-box-1">
+                <aside class="sidebar d-none d-lg-block sidebar-products-ads">
+                    <div class="sidebar-products-box-1">
                         <span class="sidbar-span"><i class="fas fa-ad ad-sidebar"></i> تبلیغات</span>
                         <p class="ad-slider">محل قرار گیری تبلیغات شما</p>
                 </aside>

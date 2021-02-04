@@ -455,6 +455,102 @@ a:link {
     width: 200px;
 }
 
+.sidebar-products-tags {
+    width: 100%;
+    background: #fff;
+    padding: 15px 0px 10px 15px;
+    height: max-content;
+    direction: rtl;
+    position: sticky;
+    position: -webkit-sticky;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #999;
+    text-align: center;
+    font-size: 15.5px;
+    border: 1px solid #dddddd;
+}
+
+.sidebar-products-ads {
+    width: 100%;
+    background: #fff;
+    padding: 15px 0px 10px 15px;
+    height: max-content;
+    direction: rtl;
+    position: sticky;
+    position: -webkit-sticky;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #999;
+    text-align: center;
+    font-size: 15.5px;
+    border: 1px solid #dddddd;
+}
+
+.sidebar-products-share {
+    width: 100%;
+    background: #fff;
+    padding: 20px 0px 0px 15px;
+    height: max-content;
+    direction: rtl;
+    position: sticky;
+    position: -webkit-sticky;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #999;
+    text-align: center;
+    font-size: 15.5px;
+    border: 1px solid #dddddd;
+}
+
+.sidebar-products {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 30px 10px 10px 10px;
+    height: max-content;
+    direction: rtl;
+    position: sticky;
+    position: -webkit-sticky;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+
+.sidbar-span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    line-height: 40px;
+}
+
+.wwsh-cource-area .cource-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 30px 0 15px;
+}
+
+.section-address-p {
+    margin-bottom: 25px;
+}
+
+.broadc i {
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+.archive-pros-for-remove-bordc .woocommerce-breadcrumb,
+.woocommerce-result-count {
+    display: none;
+}
+
+.woocommerce-breadcrumb {
+    color: #767676 !important;
+}
+
+.woocommerce-breadcrumb a {
+    color: #767676 !important;
+}
+
 .teacher-author-avatar {
     text-align: center;
 }
@@ -493,7 +589,7 @@ a:link {
 }
 
 .course-content {
-    padding: 30px;
+    padding: 20px 0 5px;
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid #dddddd;
@@ -1097,7 +1193,6 @@ a:link {
     background-color: #93cb74;
     text-align: center;
     font-weight: 400;
-    box-shadow: rgba(147, 203, 116, .6) 0 2px 12px;
     color: #fff;
     font-size: 15px;
     border-radius: 7px;
