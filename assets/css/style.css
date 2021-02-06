@@ -1765,6 +1765,18 @@ nav.woocommerce-MyAccount-navigation .shwebhm-panel-nav {
     .panel-resposive-1 {
         display: initial!important;
     }
+    .navbar-brand {
+        float: none !important;
+    }
+    .navbar-header {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #header-2 {
+        padding: 20px 0px 0px 0px;
+    }
 }
 
 @media only screen and (max-width:1200px) {
