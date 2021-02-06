@@ -58,7 +58,7 @@ if ( post_password_required() ) {
 }
 	else{ ?>
     <div class="course-wp-content">
-        <video width="100%" controls>
+        <video class="course-video" width="100%" controls>
             <source src="<?php
 						the_field('wwsh-video'); ?>" type="video/mp4">
             مروگر شما از HTML5 پشتیبانی نمی‌کند.

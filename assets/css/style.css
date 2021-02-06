@@ -418,7 +418,7 @@ a:link {
 .all-areas-title {
     font-weight: 400;
     font-size: 22px;
-    padding: 15px 0 30px 0;
+    padding: 15px 0 15px 0;
     display: inline-block;
 }
 
@@ -571,15 +571,183 @@ a:link {
     color: #F8C44F;
 }
 
+.course-lessens-box {
+    padding: 15px;
+}
+
+.course-lessens-2 {
+    background: #fff;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
+    border: 1px solid #dddddd;
+    color: #000;
+}
+
+.video-name-lessens {
+    color: #3c8aca;
+}
+
+.comment-form-rating {
+    margin-top: 10px;
+}
+
+.p-name-lessens {
+    margin-top: 10px;
+}
+
+.download-video {
+    background: #3c8aca;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    float: left;
+    transition: all .2s ease;
+}
+
+.download-video:hover {
+    color: #fff;
+    background: #f89c1c;
+    transition: all .2s ease;
+}
+
 .more-courses {
     padding: 15px;
-        padding-right: 15px;
-        padding-left: 15px;
-    padding-right: 30px;
-    padding-left: 30px;
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid #dddddd;
+}
+
+.woocommerce #review_form #respond textarea {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-image: initial;
+    outline: 0;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.woocommerce #review_form #respond {
+    padding: 15px 15px 0 15px;
+    margin: 20px 0 0;
+    color: #212529;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+#respond .comment-reply-title {
+    font-size: 15px;
+    margin: 40px auto;
+    font-weight: 400;
+    color: #333;
+    line-height: 30px;    
+}
+
+#course_student_info .student_count {
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    height: 100px;
+    margin-top: -10px;
+    color: #212529;
+}
+
+#course_student_info .student_text {
+    text-align: center;
+    display: block;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 25px;
+    color: #212529;
+}
+
+.rating-content-1 {
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    font-size: 1.5em !important;
+    padding-right: 15px;
+}
+
+.sidebar-wwsh-2 {
+    padding: 20px 0px 0px 0px;
+    color: #999;
+    text-align: center;
+    font-size: 15.5px;
+}
+
+.information-sidbar {
+    text-align: right;
+    line-height: 30px;
+}
+
+.information-sidbar ul li span::before {
+    content: "";
+    width: 5px;
+    margin-top: 4px;
+    height: 22px;
+    float: right;
+    margin-left: 10px;
+    margin-right: -15px;
+    background-color: #f89c1c;
+}
+
+.information-sidbar li {
+    list-style-type: none;
+}
+
+#sidebar-buttons {
+    margin-top: 30px;
+}
+
+.wwsh-advice, .wwsh-advice:hover, .wwsh-register, .wwsh-register:hover {
+    transition: all .3s ease;
+}
+
+.pricearea-wwsh {
+    padding: 15px 15px 0 15px;
+}
+
+.pricearea-wwsh .price-area .price {
+    text-align: center !important;
+    color: #333 !important;
+}
+
+.wwsh-advice {
+    padding: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.input-text.qty.text {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p.stars a {
+    color: #FFD000 !important;
+    font-size: 20px !important;
+}
+
+.course-video {
+    border-radius: 4px;
 }
 
 .thumbnail {
@@ -589,7 +757,7 @@ a:link {
 }
 
 .course-content {
-    padding: 20px 0 5px;
+    padding: 20px 0 20px;
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid #dddddd;
@@ -1394,7 +1562,7 @@ span.select2-selection.select2-selection--single {
 .woocommerce input.button {
     background: #f89c1c !important;
     color: #fff !important;
-    border-radius: 15px;
+    border-radius: 4px;
     text-align: center;
     padding: 13px;
     width: 100%;
