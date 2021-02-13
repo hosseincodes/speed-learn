@@ -25,17 +25,26 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 
-<div class="col-lg-4 col-sm-6 col-12 colswpsh prosarchivestyle">
-	<div class="everypro colswpsh">
-		<a href="<?php echo the_permalink(); ?>">
-			<div class="proheader">
-				<?php the_post_thumbnail( 'wwshthumb' ); ?>
-			</div>
-		</a>
-		<div class="prodetail">
-			<div class="atitlepro">
-				<a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></div>
-			<p><?php echo $product->get_short_description(); ?></p>
-		</div>
-	</div>
+<div class="col-lg-3 col-sm-3 col-12 course-box">
+    <div class="thumbnail courses blog">
+        <a href=<?php echo the_permalink(); ?>><?php the_post_thumbnail( 'wwshthumb' ); ?></a>
+        <div class="caption">
+            <a class="caption-tittle" href="<?php echo the_permalink(); ?>"><?php the_title() ?></a>
+            <div class="row information-course-box">
+                <div class="col-md-8 col-xs-6 col-sm-6 teacher">
+                    <a href="<?php echo get_author_posts_url($author_id,$user_nicename); ?>"><i
+                            style="margin-left: 5px;" class="fas fa-user"></i><?php the_author() ?></a>
+                </div>
+                <div class="col-md-4 col-xs-6 col-sm-6 users">
+                    <?php global $product; $units_sold = get_post_meta( $product->id, 'total_sales', true ); echo ''. sprintf( __( '%s', 'woocommerce' ), $units_sold ).''; ?>
+                    مشترک</div>
+            </div>
+            <hr style="color: #e9ebed; margin: 0px;">
+            <div class="price-box">
+                <div class="price-background">
+                    <?php woocommerce_template_loop_price() ?>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
