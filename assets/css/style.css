@@ -529,6 +529,10 @@ a:link {
     margin: 30px 0 15px;
 }
 
+.cource-title-box {
+    padding: 15px;
+}
+
 .section-address-p {
     margin-bottom: 25px;
 }
@@ -617,7 +621,7 @@ a:link {
 .more-courses {
     padding: 15px;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin: 15px 0 10px;
     border: 1px solid #dddddd;
 }
 
@@ -757,7 +761,7 @@ p.stars a {
 }
 
 .course-content {
-    padding: 20px 0 20px;
+    padding: 20px;
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid #dddddd;
