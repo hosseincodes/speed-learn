@@ -65,7 +65,7 @@ if ( woocommerce_product_loop() ) {
 <?php
 	woocommerce_product_loop_start();
 	?>
-	<div class="row d-block">
+	<div class="d-block-box">
 	<?php
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
