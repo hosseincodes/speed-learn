@@ -701,6 +701,12 @@ a:link {
     padding: 10px 10px;
 }
 
+.login-form-h4 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
 .sidebar-wwsh-2 {
     padding: 20px 0px 0px 0px;
     color: #999;
