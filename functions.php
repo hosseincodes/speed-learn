@@ -31,7 +31,6 @@ add_filter( 'widget_text', 'do_shortcode' );
 /**
  * Theme Options
  */
-require( trailingslashit( get_template_directory() ) . 'inc/theme-options.php' );
 require( trailingslashit( get_template_directory() ) . 'inc/metaboxeswwsh.php' );
 require( trailingslashit( get_template_directory() ) . 'inc/post-types.php' );
 /**
