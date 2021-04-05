@@ -1,5 +1,5 @@
 <?php
-/* Last Edited: 1.0.0 */
+/* Last Edited: 1.2.0 */
 
 ?>
 
@@ -53,12 +53,12 @@ if ( is_plugin_active( 'wordpress-seo/wp-seo.php' ) ) {
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div id="panel-login">
                         <ul class="nav navbar-nav navbar-left">
-                            <li><a class="panel-resposive-2 panel-login-box" href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>"><i style="font-size: 20px; margin-left: 10px;" class="fas fa-user"></i><?php if ( is_user_logged_in() ) { echo 'حساب کاربری'; } else { echo 'ورود و ثبت نام'; } ?></a></li>
+                            <li><a class="panel-resposive-2 panel-login-box" href="<?php echo get_permalink( 'woocommerce_myaccount_page_id' ); ?>"><i style="font-size: 20px; margin-left: 10px;" class="fas fa-user"></i><?php if ( is_user_logged_in() ) { echo 'حساب کاربری'; } else { echo 'ورود و ثبت نام'; } ?></a></li>
                         </ul>
                     </div>
                     <div id="shopping-cart">
                         <ul class="nav navbar-nav navbar-left">
-                            <li><a class="panel-resposive-2 shopping-cart-box" href="<?php echo get_permalink( get_option('woocommerce_cart_page_id') ); ?>"><i style="font-size: 20px; margin-left: 10px;" class="fas fa-shopping-cart"></i>سبد خرید</a></li>
+                            <li><a class="panel-resposive-2 shopping-cart-box" href="<?php echo get_permalink( 'woocommerce_cart_page_id' ); ?>"><i style="font-size: 20px; margin-left: 10px;" class="fas fa-shopping-cart"></i>سبد خرید</a></li>
                         </ul>
                     </div>
                 </div>

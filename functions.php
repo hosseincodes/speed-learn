@@ -55,7 +55,7 @@ define( 'ACF_LITE' , true );
 // To change add to cart text on single product page
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' );
 function woocommerce_custom_single_add_to_cart_text() {
-    return __( get_option('text_button_course_register' , 'ثبت نام') , 'woocommerce' );
+    return __( 'ثبت نام' , 'woocommerce' );
 }
 //
 //
@@ -73,7 +73,7 @@ add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
 function new_loop_shop_per_page( $cols ) {
   // $cols contains the current number of products per page based on the value stored on Options -> Reading
   // Return the number of products you wanna show per page.
-  $cols = get_option('count_products_in_archivepros' , '9');
+  $cols = '9';
   return $cols;
 }
 //

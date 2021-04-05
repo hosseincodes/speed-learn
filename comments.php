@@ -23,7 +23,7 @@ if ( post_password_required() )
 		          </div>
     <?php
       // Are there comments to navigate through?
-      if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
+      if ( get_comment_pages_count() > 1 && 'page_comments' ) :
     ?>
     <nav class="navigation comment-navigation" role="navigation">
       <h1 class="screen-reader-text section-heading"><?php _e( 'Comment navigation', 'twentythirteen' ); ?></h1>

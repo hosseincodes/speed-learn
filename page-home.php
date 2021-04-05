@@ -26,10 +26,10 @@ get_header(); ?>
         <div class="container">
             <div class="row title">
                 <h3>آخرین دوره ها</h3>
-                <a class="title-a" href="<?php echo get_option('shop_link','shop') ?>">مشاهده همه دوره ها</a>
+                <a class="title-a" href="<?php echo 'shop' ?>">مشاهده همه دوره ها</a>
             </div>
 
-            <?php $count_products_in_home = get_option('count_products_in_home' , '6'); $the_query = new WP_Query( array( 'post_type' => 'product' , 'posts_per_page' => $count_products_in_home , 'meta_key' => 'total_sales', 'orderby' => 'meta_value_num', ) ); $wwsh_category = get_the_category(); ?>
+            <?php $count_products_in_home = '6'; $the_query = new WP_Query( array( 'post_type' => 'product' , 'posts_per_page' => $count_products_in_home , 'meta_key' => 'total_sales', 'orderby' => 'meta_value_num', ) ); $wwsh_category = get_the_category(); ?>
             <?php if ( $the_query->have_posts() ) : ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="container">
         <div class="row title">
             <h3>آخرین ویدئو های ولاگ</h3>
-            <a class="title-a" href="<?php echo get_option('vlog_link','vlog') ?>">مشاهده همه ویدئو ها</a>
+            <a class="title-a" href="<?php echo 'vlog' ?>">مشاهده همه ویدئو ها</a>
         </div>
 
         <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3 vlog-box">
