@@ -1156,8 +1156,26 @@ a:link {
     transition: all .5s ease;
 }
 
+.span-Hi-no-home{
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.span-no-home {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .li-no-home {
     margin-bottom: 15px;
+}
+
+.ol-no-home {
+    line-height: 30px;
+    text-align: justify;
 }
 
 .section-4-box {

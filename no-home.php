@@ -1,5 +1,5 @@
 <?php
-/* Last Edited: 1.0.0 */
+/* Last Edited: 1.2.0 */
 
 get_header() ?>
 
@@ -7,22 +7,20 @@ get_header() ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <span style="display: block; font-size:35px;font-weight:bold;margin: 0 0 20px 0;">
+                <span class="span-Hi-no-home">
                     دوست من، سلام!!
                 </span>
-                <p>ممنون از اینکه انتخاب کردی سایت آموزشی ات رو با قالب آموزشی فوق حرفه‌ای <b>اسپید لرن</b> بسازی!
                     <h4 style="margin: 20px 0 20px 0;">
-                        برای شروع کار با قالب:
+                        برای شروع کار با قالب باید مراحل زیر را طی کنید:
                     </h4>
-                    <ol style="line-height: 30px;text-align: justify;">
+                    <ol class="ol-no-home">
                         <li class="li-no-home">
-                            ابتدا یک برگه با نام "مجله" بسازید.
+                            ابتدا یک برگه با نام "وبلاگ" بسازید.
                         </li>
                         <li class="li-no-home">
-                            یک برگه‌ی دیگر با نام "صفحه‌ی اصلی" بسازید و <span
-                                style="color:red; font-weight:bold;">حتما: </span> در بخش "نامک نوشته" یا "url"، عبارت
+                            یک برگه‌ی دیگر با نام "صفحه‌ی اصلی" بسازید و <span style="color:red; font-weight:bold;">حتما: </span> در بخش "نامک نوشته" یا "url"، عبارت
                             زیر را وارد کنید:<br>
-                            <span style="background:#f5f5f5; border-radius:10px; padding:5px;">home</span>
+                            <span class="span-no-home">home</span>
                         </li>
                         <li class="li-no-home">
                             از بخش پیشخوان وردپرس (آدرس سایت تان + قرار دادن /wp-admin در انتهای آن)، به "تنظیمات >
@@ -35,14 +33,14 @@ get_header() ?>
                             انتخاب کنید. (توجه کنید که حتما و طبق آموزش بالا، باید نامک برگه، home باشد.)
                         </li>
                         <li class="li-no-home">
-                            همین کار را باید برای "برگهٔ نوشته‌ها:" هم انجام بدهید. یعنی برگه‌ی "مجله" که ساختید را
+                            همین کار را باید برای "برگهٔ نوشته‌ها:" هم انجام بدهید. یعنی برگه‌ی "وبلاگ" که ساختید را
                             انتخاب کنید. (فرقی نمی‌کند که می‌خواهید
-                            اسم برگه‌ی "مجله" را چه چیزی بگذارید. همچنین نامک هم تفاوتی نمی‌کند که چه چیزی باشد.)
+                            اسم برگه‌ی "وبلاگ" را چه چیزی بگذارید. همچنین نامک هم تفاوتی نمی‌کند که چه چیزی باشد.)
                         </li>
                     </ol>
                 </p>
                 <p>موفق باشید (:</p>
-                با تشکر از شما - <a target="_blank" style="color:#4865a5;" href="http://hosseinakbari506.ir">حسین اکبری</a>
+                با تشکر از شما - <a target="_blank" style="color:#4865a5;" href="https://hosseincodes.github.io/my-personal-website/">حسین اکبری</a>
             </div>
         </div>
     </div>
