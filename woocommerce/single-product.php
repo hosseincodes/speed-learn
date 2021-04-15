@@ -95,11 +95,6 @@ $product = wc_get_product(get_the_id());
                         <div class="clear_iranthemes"></div>
                     </div>
                 </aside>
-                <aside class="sidebar d-none d-lg-block sidebar-products-ads">
-                    <div class="sidebar-products-box-1">
-                        <span class="sidbar-span"><i class="fas fa-ad ad-sidebar"></i> تبلیغات</span>
-                        <p class="ad-slider">محل قرار گیری تبلیغات شما</p>
-                </aside>
             </div>
 
         </div>
