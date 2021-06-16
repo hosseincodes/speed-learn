@@ -66,8 +66,8 @@ get_header(); ?>
 <div id="section-3">
     <div class="container">
         <div class="row title">
-            <h3>آخرین ویدئو های ولاگ</h3>
-            <a class="title-a" href="<?php echo 'vlog' ?>">مشاهده همه ویدئو ها</a>
+            <h3>آخرین نوشته های بلاگ</h3>
+            <a class="title-a" href="<?php echo 'blog' ?>">مشاهده همه مطالب</a>
         </div>
 
         <div class="col-xs-12 col-lg-3 col-sm-6 col-md-3 vlog-box">
@@ -78,17 +78,16 @@ get_header(); ?>
 
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class="thumbnail courses blog post-blog">
-                <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                <a target="_blank" href="<?php the_permalink(''); ?>"><?php the_post_thumbnail('single-post-thumbnail'); ?></a>
                 <div class="caption">
-                    <h4 class="slyder-2-h4"><?php the_title(''); ?></h4>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" class="caption-tittle"><h4 class="slyder-2-h4"><?php the_title(''); ?></h4></a>
                     <p class="slyder-2-p"><?php the_excerpt();?></p>
-                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit"
-                        class="btn btn-block btn-slyder-2">مشاهده ویدئو</a>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit" class="btn btn-block btn-slyder-2">بیشتر بخوانید</a>
                 </div>
             </div>
             <?php endwhile; ?>
 
-            <?php else : ?> <p class="not-have-content"><?php _e( 'ویدئو ای در سایت وجود ندارد ):' ); ?></p>
+            <?php else : ?> <p class="not-have-content"><?php _e( 'مطلبی در سایت وجود ندارد ):' ); ?></p>
 
             <?php endif; ?>
         </div>
@@ -100,12 +99,11 @@ get_header(); ?>
 
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class="thumbnail courses blog post-blog">
-                <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                <a target="_blank" href="<?php the_permalink(''); ?>"><?php the_post_thumbnail('single-post-thumbnail'); ?></a>
                 <div class="caption">
-                    <h4 class="slyder-2-h4"><?php the_title(''); ?></h4>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" class="caption-tittle"><h4 class="slyder-2-h4"><?php the_title(''); ?></h4></a>
                     <p class="slyder-2-p"><?php the_excerpt();?></p>
-                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit"
-                        class="btn btn-block btn-slyder-2">مشاهده ویدئو</a>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit" class="btn btn-block btn-slyder-2">بیشتر بخوانید</a>
                 </div>
             </div>
             <?php endwhile; ?>
@@ -122,12 +120,11 @@ get_header(); ?>
 
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class="thumbnail courses blog post-blog">
-                <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                <a target="_blank" href="<?php the_permalink(''); ?>"><?php the_post_thumbnail('single-post-thumbnail'); ?></a>
                 <div class="caption">
-                    <h4 class="slyder-2-h4"><?php the_title(''); ?></h4>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" class="caption-tittle"><h4 class="slyder-2-h4"><?php the_title(''); ?></h4></a>
                     <p class="slyder-2-p"><?php the_excerpt();?></p>
-                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit"
-                        class="btn btn-block btn-slyder-2">مشاهده ویدئو</a>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit" class="btn btn-block btn-slyder-2">بیشتر بخوانید</a>
                 </div>
             </div>
             <?php endwhile; ?>
@@ -144,12 +141,11 @@ get_header(); ?>
 
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class="thumbnail courses blog post-blog">
-                <?php the_post_thumbnail('single-post-thumbnail'); ?>
+                <a target="_blank" href="<?php the_permalink(''); ?>"><?php the_post_thumbnail('single-post-thumbnail'); ?></a>
                 <div class="caption">
-                    <h4 class="slyder-2-h4"><?php the_title(''); ?></h4>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" class="caption-tittle"><h4 class="slyder-2-h4"><?php the_title(''); ?></h4></a>
                     <p class="slyder-2-p"><?php the_excerpt();?></p>
-                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit"
-                        class="btn btn-block btn-slyder-2">مشاهده ویدئو</a>
+                    <a target="_blank" href="<?php the_permalink(''); ?>" type="submit" class="btn btn-block btn-slyder-2">بیشتر بخوانید</a>
                 </div>
             </div>
             <?php endwhile; ?>
