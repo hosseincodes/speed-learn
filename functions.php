@@ -44,9 +44,6 @@ include 'inc/parts/shortcodes.php';
 include 'inc/parts/widgets.php';
 //
 //
-include 'inc/parts/tgm.php';
-//
-//
 //
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 define( 'ACF_LITE' , true );
