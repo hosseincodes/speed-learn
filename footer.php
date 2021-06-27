@@ -36,7 +36,7 @@
                     <a href="http://instagram.com/speedlearn_official" target="_blank"><i
                             style="font-size: 20px; margin-left: 10px; float: left;" class="fab fa-instagram"></i></a>
                     <a href="http://t.me/speedlearn_official" target="_blank"><i
-                            style="font-size: 20px; margin-left: 10px; float: left;"
+                            style="font-size: 20px; margin-left: 15px; float: left;"
                             class="fab fa-telegram-plane"></i></a>
                 </div>
             </div>
