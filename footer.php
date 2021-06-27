@@ -28,10 +28,10 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="col-md-6 col-xs-12">
-                <div class="copy-right"> تمام حقوق سایت برای اسپید لرن محفوظ می باشد / طراحی و توسعه توسط <a target="_blank" href="https://hosseincodes.github.io/my-personal-website/">حسین اکبری</a></div>
+            <div class="col-md-9 col-xs-12">
+                <div class="copy-right"><span>اسپید لرن یک پروژه اپن سورس است، در <a target="_blank" href="https://github.com/hosseincodes/speed-learn">گیت هاب</a> مشارکت کنید / </span><Span>مدیر پروژه: <a target="_blank" href="https://hosseincodes.github.io/my-personal-website/">حسین اکبری</a></Span></div>
             </div>
-            <div class="col-md-6 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                 <div class="social-networks">
                     <a href="http://instagram.com/speedlearn_official" target="_blank"><i
                             style="font-size: 20px; margin-left: 10px; float: left;" class="fab fa-instagram"></i></a>
